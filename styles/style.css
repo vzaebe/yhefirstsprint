@@ -1,140 +1,125 @@
 /* styles/style.css */
 
 /* Общие стили */
-body {
-}
+body {}
 
 /* Шапка */
 header {
+    margin: 0;
+    padding: 0;
 }
 
-nav {
-}
+nav {}
 
-.navmain {
-}
+.navmain {}
 
-.navlots {
-}
+.navlots {}
 
-.navabout {
-}
+.navabout {}
 
-address {
-}
+address {}
 
-.addressphone {
-}
+.addressphone {}
 
-.addressmail {
-}
+.addressmail {}
 
-.addressaddress {
-}
+.addressaddress {}
 
 /* Основное содержание */
-main {
-}
+main {}
 
 /* Обложка */
 .cover {
+    margin: 0;
+    padding: 0;
+    background: url('../images/cover.jpg');
+
 }
 
-.cover h1 {
-}
+.cover h1 {}
 
-.cover h1 div {
-}
+.cover h1 div {}
 
-.description {
-}
+.description {}
 
-.descriptiontext {
-}
+.descriptiontext {}
 
-.descriptionbutton {
-}
+.descriptionbutton {}
 
 /* Лоты */
 .lots {
+    margin: 0;
+    padding: 0;
 }
 
-.lots h1 {
+.lots h1 {}
+
+.lots ul {}
+
+.lots li {}
+
+.lots h2 {}
+
+.textabout {}
+
+.lots img {}
+
+.lots a {}
+
+.lots article {}
+
+.lot__one {
+    background: url('../images/card-lot-01.jpg');
 }
 
-.lots ul {
+.lot__two {
+    background: url('../images/card-lot-02.jpg');
 }
 
-.lots li {
-}
-
-.lots h2 {
-}
-
-.textabout {
-}
-
-.lots img {
-}
-
-.lots a {
-}
-
-.lots article {
+.lot__three {
+    background: url('../images/card-lot-03.jpg');
 }
 
 /* Об аукционе */
 .about {
+    margin: 0;
+    padding: 0;
 }
 
-.containerimg {
-}
+.containerimg {}
 
-.containerabout {
-}
+.containerabout {}
 
-.containerabout h1 {
-}
+.containerabout h1 {}
 
-.containerabout .textabout {
-}
+.containerabout .textabout {}
 
-.containerabout .textabout p {
-}
+.containerabout .textabout p {}
 
 /* Подвал */
 footer {
+    margin: 0;
+    padding: 0;
 }
 
-footer nav {
-}
+footer nav {}
 
-footer .navmain {
-}
+footer .navmain {}
 
-footer .navlots {
-}
+footer .navlots {}
 
-footer .navabout {
-}
+footer .navabout {}
 
-.social-mediacontainer {
-}
+.social-mediacontainer {}
 
-.social-media {
-}
+.social-media {}
 
-.social-media img {
-}
+.social-media img {}
 
-footer address {
-}
+footer address {}
 
-footer .addressphone {
-}
+footer .addressphone {}
 
-footer .addressmail {
-}
+footer .addressmail {}
 
-footer .address__address {
-}
+footer .address__address {}
