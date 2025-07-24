@@ -1,1 +1,140 @@
-/* место для вашего кода */
+/* styles/style.css */
+
+/* Общие стили */
+body {
+}
+
+/* Шапка */
+header {
+}
+
+nav {
+}
+
+.navmain {
+}
+
+.navlots {
+}
+
+.navabout {
+}
+
+address {
+}
+
+.addressphone {
+}
+
+.addressmail {
+}
+
+.addressaddress {
+}
+
+/* Основное содержание */
+main {
+}
+
+/* Обложка */
+.cover {
+}
+
+.cover h1 {
+}
+
+.cover h1 div {
+}
+
+.description {
+}
+
+.descriptiontext {
+}
+
+.descriptionbutton {
+}
+
+/* Лоты */
+.lots {
+}
+
+.lots h1 {
+}
+
+.lots ul {
+}
+
+.lots li {
+}
+
+.lots h2 {
+}
+
+.textabout {
+}
+
+.lots img {
+}
+
+.lots a {
+}
+
+.lots article {
+}
+
+/* Об аукционе */
+.about {
+}
+
+.containerimg {
+}
+
+.containerabout {
+}
+
+.containerabout h1 {
+}
+
+.containerabout .textabout {
+}
+
+.containerabout .textabout p {
+}
+
+/* Подвал */
+footer {
+}
+
+footer nav {
+}
+
+footer .navmain {
+}
+
+footer .navlots {
+}
+
+footer .navabout {
+}
+
+.social-mediacontainer {
+}
+
+.social-media {
+}
+
+.social-media img {
+}
+
+footer address {
+}
+
+footer .addressphone {
+}
+
+footer .addressmail {
+}
+
+footer .address__address {
+}
