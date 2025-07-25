@@ -6,10 +6,23 @@ body {}
 /* Шапка */
 header {
     margin: 0;
-    padding: 0;
+    padding: 16 8;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
 }
 
-nav {}
+img {
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    list-style: circle;
+}
 
 .navmain {}
 
@@ -19,6 +32,15 @@ nav {}
 
 address {}
 
+adress__style {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+
 .addressphone {}
 
 .addressmail {}
@@ -26,19 +48,32 @@ address {}
 .addressaddress {}
 
 /* Основное содержание */
-main {}
+main {
+    position: relative;
+}
 
 /* Обложка */
 .cover {
     margin: 0;
     padding: 0;
     background: url('../images/cover.jpg');
-
+    min-height: 757px;
 }
 
-.cover h1 {}
+.cover h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 30%;
+    text-transform: uppercase;
+}
 
-.cover h1 div {}
+.cover span {
+      display: inline-flex; /* позволяет контролировать выравнивание */
+  justify-content: center;
+  width: 100%;  
+}
 
 .description {}
 
