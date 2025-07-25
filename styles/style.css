@@ -6,10 +6,14 @@ body {}
 /* Шапка */
 header {
     margin: 0;
-    padding: 16 8;
+  
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    width: 1100px;
+height: 293px;
+
+
 }
 
 img {
@@ -20,8 +24,9 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 16px;
+    gap: 1px;
     list-style: circle;
+    padding: 30px;
 }
 
 .navmain {}
@@ -67,24 +72,66 @@ main {
     line-height: 115%;
     letter-spacing: 30%;
     text-transform: uppercase;
+    width: 100%;
+
 }
 
-.cover span {
-      display: inline-flex; /* позволяет контролировать выравнивание */
-  justify-content: center;
-  width: 100%;  
+.text-left {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.text-center {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.text-right {
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .description {}
 
-.descriptiontext {}
+.description__text {
+    font-size: 20px;
+    word-spacing: 200px;
+    ;
+}
 
-.descriptionbutton {}
+.description__button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+
+}
 
 /* Лоты */
 .lots {
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+.lots ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    background-position: center;
+}
+
+.lots li {
+    height: 100%;
+    width: 334px;
+    background-image: url("");
+    background-size: cover;
+    background-position: center
 }
 
 .lots h1 {}
@@ -95,13 +142,23 @@ main {
 
 .lots h2 {}
 
-.textabout {}
+.text__about {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .lots img {}
 
-.lots a {}
+.lots a {
+    height: 100%;
+    text-decoration: none;
+}
 
-.lots article {}
+.lots article {
+    height: 100%;
+    position: relative;
+
+}
 
 .lot__one {
     background: url('../images/card-lot-01.jpg');
@@ -119,11 +176,31 @@ main {
 .about {
     margin: 0;
     padding: 0;
+    grid-template-columns: 300px 1fr
+      display: flex;                    /* Включаем Flexbox */
+  flex-direction: column;           /* Выстраиваем элементы в колонку */
+  align-items: center;              /* Центрируем по горизонтали */
+  justify-content: center;          /* Центрируем по вертикали */
+}
 }
 
-.containerimg {}
+.container__img {
+     background-color: black;
+  border-radius: 100%; 
+    width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
 
-.containerabout {}
+}
+
+.container__about {
+      display: flex;
+  flex-direction: column;
+  gap: 16px; /* Гибкий отступ между параграфами */
+  margin-top: 20px; /* Отступ сверху от карточки */
+  width: 100%;
+}
 
 .containerabout h1 {}
 
@@ -135,13 +212,19 @@ main {
 footer {
     margin: 0;
     padding: 0;
+      display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
 }
 
-footer nav {}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 footer .navmain {}
 
-footer .navlots {}
+footer .nav__lots {}
 
 footer .navabout {}
 
